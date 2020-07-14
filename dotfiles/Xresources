@@ -1,0 +1,11 @@
+#include ".Xresources.d/xterm"
+#include ".Xresources.d/rxvt-unicode"
+#include ".Xresources.d/fonts"
+
+Xcursor.theme: FossaCursors
+XTerm.vt100.foreground: white
+XTerm.vt100.background: black
+XTerm.vt100.faceName: Source Code Pro Bold:size=10:antialias=false
+
+URxvt.scrollBar: false
+

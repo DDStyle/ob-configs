@@ -1,0 +1,62 @@
+sw_volume: 82
+audio_device_state:1:my_fifo
+audio_device_state:1:pulse audio
+state: stop
+current: 11
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 5
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Sweet Dreams (Are Made Of This) (Album Version) - Marilyn Ma.m4a
+1:Америка_feat_Отверженные_M_Squad.mp3
+2:Воскрешение (Radio Edit) - ППК.m4a
+3:Mr. Saxobeat   Alexandra Stan.mp3
+4:Гимн Советского Союза   СССР.mp3
+5:Гимн УССР – Гимн УССР.mp3
+6:Гимн_БССР_Официальное_исполнение.mp3
+7:День Победы – Иосиф Кобзон.mp3
+8:Домашние деньги Remix   by RaymanRave.mp3
+9:Женщина,_я_не_танцую_Стас_Костюшкин.mp3
+10:Зеркала_Ани_Лорак_и_Григорий_Лепс.m4a
+11:Наркотик кал   Hard Bass School.mp3
+12:Родина - АнимациЯ.m4a
+13:Тает лёд - Грибы.m4a
+14:Arabika - ДиДюЛя.m4a
+15:Axel F - Crazy Frog.m4a
+16:Breathe - Prodigy.m4a
+17:Bring Me To Life - Evanescence.m4a
+18:Capital - Ляпис Трубецкой.m4a
+19:Children - Роберт Майлз.m4a
+20:Dear Mama   2Pac.mp3
+21:Emperor Palpatine s Theme - Samuel Kim.m4a
+22:Fairytale   Franziska Wiese, Alexander Rybak.mp3
+23:First Of The Year (Equinox) - Skrillex.m4a
+24:Obito theme - Antonio Provveduto.m4a
+25:Give In to Me   Michael Jackson.mp3
+26:Golden Dump (The Trump Hump) - Клемен Слаконья.m4a
+27:Hung Up - Madonna.m4a
+28:Hypnodancer   Little Big.mp3
+29:I Will Survive – Gloria Gaynor.mp3
+30:Leave Me Alone   Michael Jackson.mp3
+31:Все будет хорошо – Митя Фомин.mp3
+32:Если_Друг_Оказался_Вдруг_Владимир.mp3
+33:Putin, Putout - Клемен Слаконья.m4a
+34:rockstar (feat. 21 Savage) - Post Malone.m4a
+35:Ruf mich Angela - Klemen Slakonja.m4a
+36:Scary Monsters And Nice Sprites - Skrillex.m4a
+37:Sexy And I Know It - LMFAO.m4a
+38:Stereo_Love_Original_Mix_feat_Вика.m4a
+39:Sweet Dreams (Are Made of This) - Eurythmics.m4a
+40:Destination_Calabria_UK_Radio_Edit.m4a
+41:Astronomia   Tony Igy.mp3
+42:Blinding Lights - The Weeknd.m4a
+43:Danza Kuduro - Don Lore V.m4a
+44:Don Omar Danza Kuduro (DHB Remix)   Don Omar.mp3
+45:Красная шапочка   Максим Галкин.mp3
+46:Run Away (Radio Edit) - SunStroke Project и Оля Тира.m4a
+47:I Need a Hero - Джайада Монтелеон.m4a
+playlist_end

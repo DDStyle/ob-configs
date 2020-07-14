@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+	<menu id = "root-menu" label = "Openbox">
+		<separator label = "OPENBOX"/>
+		<item label = "Terminal">
+			<action name = "Execute">
+				<execute>kitty</execute>
+			</action>
+		</item>
+		<item label = "File Manager">
+			<action name = "Execute">
+				<execute>pcmanfm</execute>
+			</action>
+		</item>
+		<menu id = "add" label = "Create">
+			<item label = "Empty file">
+				<action name = "Execute">
+					<execute>gvim</execute>
+				</action>
+			</item>
+			<item label = "Document">
+				<action name = "Execute">
+					<execute>lowriter</execute>
+				</action>
+			</item>
+			<item label = "Presentation">
+				<action name = "Execute">
+					<execute>loimpress</execute>
+				</action>
+			</item>
+			<item label = "Table">
+				<action name = "Execute">
+					<execute>localc</execute>
+				</action>
+			</item>
+			<item label = "Database">
+				<action name = "Execute">
+					<execute>lobase</execute>
+				</action>
+			</item>
+			<item label = "Formula">
+				<action name = "Execute">
+					<execute>lomath</execute>
+				</action>
+			</item>
+			<item label = "Picture">
+				<action name = "Execute">
+					<execute>lodraw</execute>
+				</action>
+			</item>
+			<item label = "GIMP Object">
+				<action name = "Execute">
+					<execute>gimp</execute>
+				</action>
+			</item>
+		</menu>
+
+		<menu id = "fav" label = "Favorite links">
+			<item label = "ArchWiki">
+				<action name = "Execute">
+					<execute>firefox https://wiki.archlinux.org/index.php/Main_page_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9) </execute>
+				</action>
+			</item>
+			<item label = "Google Translate">
+				<action name = "Execute">
+					<execute>firefox https://translate.google.com/?hl=ru </execute>
+				</action>
+			</item>
+			<item label = "Google Drive">
+				<action name = "Execute">
+					<execute>firefox https://drive.google.com/drive/my-drive</execute>
+				</action>
+			</item>
+			<item label = "GMail">
+				<action name = "Execute">
+					<execute>firefox https://mail.google.com/mail/u/0/#inbox</execute>
+				</action>
+			</item>
+			<item label = "Geometry Dash Wiki">
+				<action name = "Execute">
+					<execute>firefox https://geometry-dash.fandom.com/ru/wiki/%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_2.2</execute>
+				</action>
+			</item>
+			</menu>
+		<separator />
+		<item label = "Desktop wallpapers">
+				<action name = "Execute">
+					<execute>nitrogen ~/Pictures/wallpapers</execute>
+				</action>
+			</item>
+		<item label = "Tint2 settings">
+				<action name = "Execute">
+					<execute>tint2conf</execute>
+				</action>
+			</item>
+		<item label = "Openbox settings">
+				<action name = "Execute">
+					<execute>obconf</execute>
+				</action>
+			</item>
+		<item label = "GTK Appearance">
+				<action name = "Execute">
+					<execute>lxappearance</execute>
+				</action>
+			</item>
+
+			<item label = "Qt Appearance">
+				<action name = "Execute">
+					<execute>qt5ct</execute>
+				</action>
+			</item>
+
+			<item label = "Kvantum options">
+				<action name = "Execute">
+					<execute>kvantummanager</execute>
+				</action>
+			</item>
+
+			<menu id = "conf" label = "Config Files">
+
+				<menu id = "ob" label = "Obenbox">
+				<item label = "autostart">
+					<action name = "Execute">
+						<command>gvim ~/.config/openbox/autostart</command>
+					</action>
+				</item>
+				<item label = "rc.xml">
+					<action name = "Execute">
+						<command>gvim ~/.config/openbox/rc.xml</command>
+					</action>
+				</item>
+
+				<item label = "menu.xml">
+					<action name = "Execute">
+						<command>gvim ~/.config/openbox/menu.xml</command>
+					</action>
+				</item>
+					<item label = "themerc">
+					<action name = "Execute">
+				<command>gvim ~/.themes/tired-plum/openbox-3/themerc</command>
+					</action>
+				</item>
+				</menu>
+			
+				<menu id = "pb" label = "Polybar">
+				<item label = "config">
+					<action name = "Execute">
+						<command>gvim ~/.config/polybar/config</command>
+					</action>
+				</item>
+				</menu>
+
+				<menu id = "tnt2" label = "Tint2">
+				<item label = "tint2rc">
+					<action name = "Execute">
+						<command>gvim ~/.config/tint2/tint2rc</command>
+					</action>
+				</item>
+				</menu>
+
+				<menu id = "pcm" label = "Picom">
+					<item label = "picom.conf">
+						<action name = "Execute">
+							<command>gvim ~/.config/picom/picom.conf</command>
+						</action>
+					</item>
+				</menu>
+
+					<menu id = "vimr" label = "Vim">
+				<item label = ".vimrc">
+					<action name = "Execute">
+						<command>gvim ~/.vimrc</command>
+					</action>
+				</item>
+				</menu>
+
+					<menu id = "xorg" label = "Xorg">
+				<item label = ".xinitrc">
+					<action name = "Execute">
+						<command>gvim ~/.xinitrc</command>
+					</action>
+				</item>
+						<item label = ".Xresources">
+					<action name = "Execute">
+						<command>gvim ~/.Xresources</command>
+					</action>
+				</item>
+
+				</menu>
+
+					<menu id = "zsh" label = "Zsh">
+				<item label = ".zshrc">
+					<action name = "Execute">
+						<command>gvim ~/.zshrc</command>
+					</action>
+				</item>
+						
+				</menu>
+
+
+			</menu>
+
+			<separator />
+			<item label = "Reconfigure">
+				<action name = "Reconfigure"/>
+				<action name="Execute">
+        				<command>/home/danil-pc/Scripts/reboot_system.sh</command>
+      				</action>
+			</item>
+			<item label = "Power Off">
+				<action name="Execute">
+					<execute>oblogout</execute>
+      				</action>
+			</item>
+	</menu>
+
+    </openbox_menu>
