@@ -1,6 +1,8 @@
 # ob-configs
 Openbox configurations I used in my Arch
 
+![Screenshot](https://imgur.com/a/u4Imgqe)
+
 ## Packets for installing
 
 + Xorg  ***Graphical Server***
