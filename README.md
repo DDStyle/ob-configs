@@ -1,7 +1,7 @@
 # ob-configs
 Openbox configurations I used in my Arch
 
-![Screenshot](https://imgur.com/a/u4Imgqe)
+![Screenshot](https://i.ibb.co/9ZmH1nP/2020-07-16-01-38.png)
 
 ## Packets for installing
 
